@@ -1,19 +1,20 @@
 import styled from '@emotion/styled';
 
 export const StatisticsSection = styled.section`
-  padding: 24px;
+  background-color: ${props => props.theme.colors.tertiaryBgColor};
+  padding-top: ${props => props.theme.spacing(6)};
+  margin-bottom: ${props => props.theme.spacing(20)};
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const StatisticsTitle = styled.h1`
-  margin-top: 0;
-  text-align: center;
-  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 200;
+  margin-bottom: ${props => props.theme.spacing(12.5)};
 `;
 
 export const List = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
-  gap: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
+  display: flex;
 `;

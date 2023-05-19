@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 
 export const List = styled.ul`
-  padding: 24px;
+  background-color: ${props => props.theme.colors.accentColor};
+  margin-bottom: ${props => props.theme.spacing(15)};
 `;

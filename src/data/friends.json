@@ -1,31 +1,31 @@
 [
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
-    "name": "Mango",
+    "avatar": "https://picsum.photos/id/360/48/48",
+    "name": "Jade",
     "isOnline": true,
     "id": 1812
   },
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
-    "name": "Kiwi",
+    "avatar": "https://picsum.photos/id/342/48/48",
+    "name": "Gabriel",
     "isOnline": false,
     "id": 1137
   },
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png",
-    "name": "Ajax",
+    "avatar": "https://picsum.photos/id/319/48/48",
+    "name": "Lucas",
     "isOnline": true,
     "id": 1213
   },
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/2977/2977285.png",
-    "name": "Jay",
+    "avatar": "https://picsum.photos/id/177/48/48",
+    "name": "Jules",
     "isOnline": true,
     "id": 1714
   },
   {
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998749.png",
-    "name": "Poly",
+    "avatar": "https://picsum.photos/id/259/48/48",
+    "name": "Rose",
     "isOnline": false,
     "id": 1284
   }
