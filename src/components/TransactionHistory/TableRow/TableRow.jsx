@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 // import { } from './TableRow.styled';
 
-export const TableRow = ({ id, type, amount, currency }) => {
+export const TableRow = ({ type, amount, currency }) => {
   return (
-    <tr key={id}>
+    <tr>
       <td>{type}</td>
       <td>{amount}</td>
       <td>{currency}</td>
@@ -12,7 +12,6 @@ export const TableRow = ({ id, type, amount, currency }) => {
 };
 
 TableRow.propTypes = {
-  id: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   amount: PropTypes.string.isRequired,
   currency: PropTypes.string.isRequired,

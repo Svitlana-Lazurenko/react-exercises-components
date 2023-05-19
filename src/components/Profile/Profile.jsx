@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import {
   ProfileCard,
   Description,
+  Avatar,
   Name,
   Info,
   Stats,
@@ -14,7 +15,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <ProfileCard>
       <Description>
-        <img src={avatar} alt="User avatar" className="avatar" />
+        <Avatar src={avatar} alt="User avatar" />
         <Name>{username}</Name>
         <Info>@{tag}</Info>
         <Info>{location}</Info>

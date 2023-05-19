@@ -12,6 +12,12 @@ export const Description = styled.div`
   text-transform: uppercase;
 `;
 
+export const Avatar = styled.img`
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+`;
+
 export const Name = styled.p`
   margin-top: 0;
   text-align: center;
