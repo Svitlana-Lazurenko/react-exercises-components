@@ -1,11 +1,11 @@
 import styled from '@emotion/styled';
 
 export const Item = styled.li`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
-  gap: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
+  background-color: ${function getRandomHexColor() {
+    return `#${Math.floor(Math.random() * 16777215)
+      .toString(16)
+      .padStart(6, 0)}`;
+  }};
 `;
 
 export const Label = styled.span`
