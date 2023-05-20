@@ -9,7 +9,7 @@ export const StatisticsItem = ({ label, percentage }) => {
   return (
     <Item>
       <Label>{label}</Label>
-      <Percentage>{percentage}</Percentage>
+      <Percentage>{percentage}%</Percentage>
     </Item>
   );
 };
